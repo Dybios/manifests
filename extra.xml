@@ -50,17 +50,19 @@
   <project name="LineageOS/android_vendor_qcom_opensource_audio" path="vendor/qcom/opensource/audio" remote="github" revision="lineage-17.1" />
   <project name="AOSP-whatever/platform_vendor_qcom_opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="github" revision="android-11.0.0" />
   <project name="LineageOS/android_vendor_qcom_opensource_interfaces" path="vendor/qcom/opensource/interfaces" remote="github" revision="lineage-17.1" />
+  <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-17.1" />
+  <project name="LineageOS/android_system_qcom" path="system/qcom" remote="github" revision="lineage-17.1" />
+  <project name="PotatoProject/vendor_codeaurora_telephony" path="vendor/codeaurora/telephony" remote="github" revision="lineage-17.1" />
 
   <!-- device stuff -->
-  <project name="rahifm/device_xiaomi_mido" path="device/xiaomi/mido" remote="github" revision="android-11.0.0" />
-  <project name="rahifm/android_kernel_xiaomi_msm8953" path="kernel/xiaomi/msm8953" remote="github" revision="rebase/LA.UM.8.6.r1" />
-  <project name="rahifm/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="android-11.0.0" />
-  <project name="rahifm/hardware_qcom_display" path="hardware/qcom/display-caf-msm8996" remote="github" revision="android-11-8996" />
-  <project name="rahifm/hardware_qcom_audio" path="hardware/qcom/audio-caf-msm8996" remote="github" revision="android-11-8996" />
-  <project name="rahifm/hardware_qcom_media" path="hardware/qcom/media-caf-msm8996" remote="github" revision="android-11-8996" />  
+  <project name="dybios/device_motorola_sanders" path="device/motorola/sanders" remote="github" revision="d-staging" />
+  <project name="PotatoDevices/kernel_motorola_sanders" path="kernel/motorola/sanders" remote="github" revision="croquette-release" />
+  <project name="dybios/vendor_motorola_sanders" path="vendor/motorola/sanders" remote="github" revision="d-staging" />
+  <project name="PotatoProject-next/hardware_qcom_display" path="hardware/qcom/display-caf-msm8996" remote="github" revision="d-staging1-caf-msm8996" />
+  <project name="PotatoProject-next/hardware_qcom_audio" path="hardware/qcom/audio-caf-msm8996" remote="github" revision="d-staging1-caf-msm8996" />
   <project name="AOSP-whatever/platform_device_qcom_sepolicy" path="device/qcom/sepolicy-legacy-um" remote="github" revision="lineage-18.0-legacy-um" />
 
   <!-- find a better way to do this -->
-  <project name="rahifm/device_xiaomi_mido" path="out/target/product/mido/obj/KERNEL_OBJ/usr/include" remote="github" revision="pa-mido-quartz-header" />
+<!--  <project name="rahifm/device_xiaomi_mido" path="out/target/product/mido/obj/KERNEL_OBJ/usr/include" remote="github" revision="pa-mido-quartz-header" />-->
 
 </manifest>
