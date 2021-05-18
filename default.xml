@@ -1,5 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <remote name="github"
+          fetch="https://github.com" />
+
+  <remote name="gitlab"
+          fetch="https://gitlab.com" />
+
+  <remote name="potato"
+          fetch="https://github.com/PotatoProject"
+          revision="refs/heads/dumaloo-release" />
+
+  <remote name="potato-next"
+          fetch="https://github.com/PotatoProject-next"
+          revision="refs/heads/dumaloo-release" />
+
+  <remote name="devices"
+          fetch="https://github.com/PotatoDevices"
+          revision="refs/heads/dumaloo-release" />
+
+  <remote name="lineage"
+          fetch="https://github.com/LineageOS"
+          revision="refs/heads/lineage-18.1" />
+
+  <remote  name="arrow"
+           fetch="https://github.com/ArrowOS"
+           revision="refs/heads/arrow-11.0" />
 
   <remote  name="aosp"
            fetch=".."
@@ -1071,4 +1096,9 @@
 
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
+
+  <!-- Potato Additions -->
+  <include name="extras/potato.xml" />
+  <include name="extras/others.xml" />
+
 </manifest>
